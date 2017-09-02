@@ -1,0 +1,57 @@
+/* Fonts (Add to SASS later)
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* General styling */
+body {
+    background-color: #ECFEE8;
+    color: #6EA4BF;
+}
+
+img {
+    width: 100%;
+}
+
+/* Container styling */
+.banner.container {
+    margin-top: 5%;
+}
+
+.content.container {
+    margin-top: 5%;
+}
+
+.navbar.bottom.container {
+    margin-top: 5%;
+}
+
+
+/* Row styling */
+.navbar.row h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner.row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.banner.row h2 {
+    font-size: 48px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner.row p {
+    font-family: 'Lato', sans-serif;
+}
+
+.content.row {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Bootstrap overrides */
+.col-sm-4 {
+    padding: 0px !important;
+}
