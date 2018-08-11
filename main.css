@@ -5,8 +5,8 @@ font-family: 'Roboto', sans-serif;
 
 /* General styling */
 body {
-    background-color: #ECFEE8;
-    color: #6EA4BF;
+    /* background-color: #ECFEE8; */
+    /* color: #6EA4BF; */
 }
 
 img {
@@ -15,15 +15,15 @@ img {
 
 /* Container styling */
 .banner.container {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .content.container {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 .navbar.bottom.container {
-    margin-top: 5%;
+    margin-top: 2%;
 }
 
 
@@ -38,12 +38,11 @@ img {
 }
 
 .banner.row h2 {
-    font-size: 48px;
     font-family: 'Roboto', sans-serif;
 }
 
 .banner.row p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .content.row {
