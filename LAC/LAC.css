@@ -1,0 +1,11 @@
+/* Fonts (Add to SASS later)
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+/* General styling */
+
+body, h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
