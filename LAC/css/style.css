@@ -30,6 +30,9 @@
     }
   }
 
+/* Profile Icon size */
+
+
 /* Normal Stuff */
 body {
     font-family: 'Roboto', sans-serif;
@@ -54,6 +57,7 @@ h2 {
 .splash img {
     opacity: 0.85;
     width: 100%;
+    min-height: 400px;
 }
 
 .display-1 {
@@ -65,7 +69,7 @@ h2 {
 
 .tagline {
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-shadow: 3px 3px 6px #000;
