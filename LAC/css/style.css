@@ -1,0 +1,85 @@
+/*
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+/* Media Queries */
+/* Tagline font size */
+@media screen and (max-width: 850px) {
+    div.tagline h2 {
+      font-size: 30px;
+    }
+  }
+
+@media screen and (max-width: 701px) {
+    div.tagline h2 {
+      font-size: 24px;
+    }
+  }
+
+@media screen and (max-width: 601px) {
+    div.tagline h2 {
+      font-size: 20px;
+    }
+  }
+
+/* Jumbotron button size */
+@media screen and (max-width: 850px) {
+    div.tagline button {
+      font-size: .8rem;
+    }
+  }
+
+/* Normal Stuff */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+}
+
+.splash {
+    position: relative;
+    text-align: center;
+    color: white;
+    background: black;
+}
+
+.splash img {
+    opacity: 0.85;
+    width: 100%;
+}
+
+.display-1 {
+    font-size: 4em;
+}
+.display-1, .lead {
+    font-weight: 900;
+}
+
+.tagline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px 6px #000;
+}
+
+.bg-dark {
+    color: white;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+}
+
+.map {
+    height: 480px;
+}
