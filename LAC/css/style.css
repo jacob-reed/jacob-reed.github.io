@@ -31,7 +31,12 @@
   }
 
 /* Profile Icon size */
-
+@media screen and (max-width: 975px) {
+    div.profile img {
+      height: 100px;
+      width: 100px;
+    }
+  }
 
 /* Normal Stuff */
 body {
