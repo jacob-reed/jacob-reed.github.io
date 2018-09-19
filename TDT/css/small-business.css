@@ -6,7 +6,7 @@
 
  /* Fonts
 font-family: 'Nanum Gothic', sans-serif;
-font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Noto Sans', sans-serif;
 */
 
 body {
@@ -28,6 +28,7 @@ body {
 .col-lg-4 .card-footer {
   background-color: #fff;
 }
+
 .navbar {
   background-color: #4c4858 !important;
 }
@@ -47,11 +48,35 @@ body {
 }
 
 .h1, .h2, h1, h2 {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 .py-5 {
   padding-bottom: 0rem !important;
   padding-top: 1rem !important;
   background-color: #4c4858 !important;
+}
+
+.navbar-brand {
+  font-family: 'Noto Sans', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.card-header {
+  display: flex; 
+  justify-content: center;
+  font-size: 1.8rem;
+  font-family: 'Noto Sans', sans-serif;
+  padding-bottom: 0px;
+  border-bottom: none;
+}
+
+.fas {  
+  color: #706677 !important;
+}
+
+.card-footer { 
+  display: flex; 
+  justify-content: center;
 }
