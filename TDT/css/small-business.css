@@ -4,8 +4,15 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-small-business/blob/master/LICENSE)
  */
 
+ /* Fonts
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+*/
+
 body {
   padding-top: 54px;
+  font-family: 'Nanum Gothic', sans-serif;
+  background-color: #EEF0F2;
 }
 
 @media (min-width: 992px) {
@@ -14,20 +21,37 @@ body {
   }
 }
 
-.bg-dark {
-  background-color: #070707 !important;
+.card, .card-footer {
+  border: none;
+}
+
+.col-lg-4 .card-footer {
+  background-color: #fff;
+}
+.navbar {
+  background-color: #4c4858 !important;
 }
 
 .bg-secondary {
-  background-color: #40434E !important;
+  background-color: #706677 !important;
 }
 
 .btn-primary {
-  background-color: #92B4E2 !important;
-  border-color: #92B4E2 !important;
+  background-color: #A6808C !important;
+  border-color: #A6808C !important;
 }
 
 .btn-lg {
-  background-color: #C297B8 !important;
-  border-color: #C297B8 !important;
+  background-color: #E2A9A1 !important;
+  border-color: #E2A9A1 !important;
+}
+
+.h1, .h2, h1, h2 {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.py-5 {
+  padding-bottom: 0rem !important;
+  padding-top: 1rem !important;
+  background-color: #4c4858 !important;
 }
