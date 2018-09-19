@@ -59,8 +59,8 @@ body {
 
 .navbar-brand {
   font-family: 'Noto Sans', sans-serif;
-  text-transform: uppercase;
-  font-size: 15px;
+  font-variant: small-caps;
+  font-size: 17px;
 }
 
 .card-header {
@@ -79,4 +79,8 @@ body {
 .card-footer { 
   display: flex; 
   justify-content: center;
+}
+
+.navbar-number {
+  font-size: 15px;
 }
