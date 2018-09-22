@@ -13,7 +13,8 @@ font-family: 'Roboto Slab', serif;
 body {
   padding-top: 54px;
   font-family: 'Nanum Gothic', sans-serif;
-  background-color: #EEF0F2;
+  background-color: rgb(226, 226, 226);
+  font-size: .9rem !important;
 }
 
 @media (min-width: 992px) {
@@ -50,6 +51,7 @@ body {
 
 .h1, .h2, h1, h2 {
   font-family: 'Roboto Slab', serif;
+  font-size: 2rem !important;
 }
 
 .py-5 {

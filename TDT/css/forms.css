@@ -32,21 +32,21 @@ body {
   }
   
   .navbar {
-    background-color: #0A100D !important;
+    background-color: #476A6F !important;
   }
   
   .bg-secondary {
-    background-color: #14213D !important;
+    background-color: #BD9989 !important;
   }
   
   .btn-primary {
-    background-color: #A20021 !important;
-    border-color: #A20021 !important;
+    background-color: #6B677E !important;
+    border-color: #BD9989 !important;
   }
   
   .btn-lg {
-    background-color: #A20021 !important;
-    border-color: #A20021 !important;
+    background-color: #6B677E !important;
+    border-color: #6B677E !important;
   }
   
   .h1, .h2, h1, h2 {
@@ -57,7 +57,7 @@ body {
   .py-5 {
     padding-bottom: 1rem !important;
     padding-top: 1rem !important;
-    background-color: #0A100D !important;
+    background-color: #476A6F !important;
   }
   
   .navbar-brand {
@@ -80,7 +80,7 @@ body {
   }
   
   .fas {  
-    color: #14213D !important;
+    color: #519E8A !important;
   }
   
   .card-footer { 
